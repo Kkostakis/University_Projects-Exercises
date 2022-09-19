@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1DB1101-C5E8-83F8-086F-ACE09D7B0A55" name="Client">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 16:59:54 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Email_Address" id="9C223172-A755-21CF-8DCA-FC3D0213E1B3">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 17:00:12 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="D1042AE0-6765-7CC8-AE09-D36C6FC16D3C">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 17:00:39 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone_Number" id="BD22E2F4-E2E9-5E77-38B1-848035E8F4D8">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 17:00:58 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Client_Name" id="22A74E82-DD72-7641-8423-C48FDFE8268D">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 17:01:19 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Client_Surname" id="E2CD0179-F7F7-5283-8804-603DB0339B2B">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 17:01:39 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Country" id="D1CE3A5F-4147-AF21-A87C-CBF6FFAA50E4">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 17:01:57 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="3A2674ED-AA98-3B91-FCC8-4D1FCE05B066">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 17:04:57 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fax" id="091F20D2-9CB7-0E45-5623-F1CFBB3ADAA7">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 17:07:04 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mail_Code" id="FB9175B0-3DD6-E428-EA3E-6DCCB1FDC97D">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 17:07:14 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Country_Code" id="10249776-E72F-A161-3CDE-0DC5BF6805C0">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 17:08:08 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93CD907B-173E-0EFF-5DF7-2C01FD06ADD9" name="Clientv2 PK">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 17:07:02 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C223172-A755-21CF-8DCA-FC3D0213E1B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

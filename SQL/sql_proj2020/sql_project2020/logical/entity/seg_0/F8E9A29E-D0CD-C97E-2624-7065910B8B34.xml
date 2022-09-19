@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8E9A29E-D0CD-C97E-2624-7065910B8B34" name="Flight">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 15:58:33 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Flight_ID" id="25A6501A-EDA4-F713-24B9-8CC3DAA0FECF">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 15:59:07 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Airline_code" id="5B7F848D-2AE5-09A2-5CDF-CCADA98C5E91">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 16:06:49 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Business" id="192B4287-0276-B71D-6E6D-D03FE267CC05">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 16:14:22 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Smokers" id="3C85E11E-EBBF-6D4A-1003-051399E5F0FE">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 16:15:25 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Seats_Availability" id="EDAA2F26-27D6-B6A6-D7E8-3DFDA39CA2CE">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 16:15:54 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_Duration" id="F0EC3ED0-4D59-F8DE-6959-3A363386A15C">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 16:23:20 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9A60669-247A-6051-9264-DD98C7741F9A" name="Flight PK">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 15:59:19 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25A6501A-EDA4-F713-24B9-8CC3DAA0FECF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

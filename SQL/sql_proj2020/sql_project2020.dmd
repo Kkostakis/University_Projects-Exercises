@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="sql_project2020" id="DB260C47-EB49-FC6D-F437-D763FDE8411C" version="3.5">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-04-30 15:58:23 UTC</createdTime>
+<ownerDesignName>sql_2020</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DB260C47-EB49-FC6D-F437-D763FDE8411C</designId>
+</OSDM_Design>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B04E975C-F189-B3E0-09C4-8679371EC83D" name="Airport_Taxes">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 10:25:47 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Country_Name" id="AC3DD9B8-AFCE-F93F-D6FA-FB8177B4072C">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 10:27:34 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Exchange_Rate" id="2976538F-C450-9833-5314-F86C484F4DD9">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 10:26:12 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="590A3CBB-2C79-3E75-203D-3A3FCBC455B3" name="Airport_Taxes PK">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 10:27:48 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AC3DD9B8-AFCE-F93F-D6FA-FB8177B4072C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC8DB3C4-45FF-C595-677A-5AE50590C0CD" name="Booking">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 09:23:46 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Booking_ID" id="C6C11F0A-44B0-83F9-6E0B-65385D861699">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 09:24:59 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location_Booking" id="5FF3B7CF-C2AC-3AB9-7B91-D77EE9250B5C">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 09:25:01 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Booking_Date" id="6402AA82-67CD-1BFD-12B1-4571A53BB25E">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 09:25:01 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_ID" id="51669B81-C1F0-A45D-333D-C6A6BBB4E4AA">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 09:25:02 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Departure_Date&amp;Time" id="FA8CBC02-907C-B5F9-3189-CD9DD38AD7F4">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 09:25:02 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Landing_Date&amp;Time" id="B9DCDF68-BE76-6BC0-C7AC-11D06714B905">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 09:29:56 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Seat_Category" id="381D57BF-C6AA-9EAF-4840-98E0A482D1C2">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 09:29:57 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total_price" id="FDEFA1B0-8EED-ADD9-A7BA-8D46AD5D30FC">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 09:37:33 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Seat_State" id="49093A96-78B1-F841-6925-4C7D8AA4AA75">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 09:53:10 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email_Address" id="CE4D75A2-B4D4-D530-05F8-36AD3E687995">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 10:47:25 UTC</createdTime>
+<generatorID>742205B4-0238-9E31-3480-A4E9E40FC15A</generatorID>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<referedAttribute>9C223172-A755-21CF-8DCA-FC3D0213E1B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55F7BFC0-6DC8-DE9E-16A7-AB00D7184C1D" name="Booking PK">
+<createdBy>κωστας κ</createdBy>
+<createdTime>2020-05-01 09:25:14 UTC</createdTime>
+<ownerDesignName>sql_project2020</ownerDesignName>
+<engineerTo>
+<item key="D12655A5-A73B-EF5E-AD64-F610317D3CDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6C11F0A-44B0-83F9-6E0B-65385D861699</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
